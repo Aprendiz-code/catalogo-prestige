@@ -29,6 +29,7 @@ export const CatalogViewPage: React.FC<CatalogViewPageProps> = ({
   onOpenAdmin,
 }) => {
   const [showFilters, setShowFilters] = useState(false);
+  const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [selectedProduct, setSelectedProduct] = useState<ProductWithDetails | null>(null);
   const [filters, setFilters] = useState<ProductFilterParams>({
     sortBy: 'newest',
@@ -124,14 +125,16 @@ export const CatalogViewPage: React.FC<CatalogViewPageProps> = ({
 
           {/* Acciones de la Cabecera */}
           <div className="flex items-center space-x-3">
-            <button
-              onClick={() => setShowFilters(!showFilters)}
-              className="flex items-center gap-2 border-b border-[#B08D57] p-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8E6E40] transition-colors hover:text-[#171717]"
-              aria-label="Buscar y filtrar"
-            >
-              <SlidersHorizontal className="w-4 h-4" />
-              <span className="hidden sm:inline">FILTRAR</span>
-            </button>
+            {currentPageIndex > 0 && (
+              <button
+                onClick={() => setShowFilters(!showFilters)}
+                className="flex items-center gap-2 border-b border-[#B08D57] p-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8E6E40] transition-colors hover:text-[#171717]"
+                aria-label="Buscar y filtrar"
+              >
+                <SlidersHorizontal className="w-4 h-4" />
+                <span className="hidden sm:inline">FILTRAR</span>
+              </button>
+            )}
 
             <button
               onClick={onOpenAdmin}
@@ -166,6 +169,7 @@ export const CatalogViewPage: React.FC<CatalogViewPageProps> = ({
             onSelectProduct={setSelectedProduct}
             showFilters={showFilters}
             onToggleFilters={() => setShowFilters(!showFilters)}
+            onPageChange={setCurrentPageIndex}
           />
         )}
       </main>

@@ -10,6 +10,7 @@ interface FlipbookViewerProps {
   onSelectProduct: (product: ProductWithDetails) => void;
   showFilters: boolean;
   onToggleFilters: () => void;
+  onPageChange?: (pageIndex: number) => void;
 }
 
 export const FlipbookViewer: React.FC<FlipbookViewerProps> = ({
@@ -18,6 +19,7 @@ export const FlipbookViewer: React.FC<FlipbookViewerProps> = ({
   onSelectProduct,
   showFilters,
   onToggleFilters,
+  onPageChange,
 }) => {
   // Page 0 = Cover; Page 1..N = Catalog Pages
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
@@ -34,6 +36,7 @@ export const FlipbookViewer: React.FC<FlipbookViewerProps> = ({
       if (index < 0 || index > totalPages || isTransitioning) return;
       setIsTransitioning(true);
       setCurrentPageIndex(index);
+      onPageChange?.(index);
       setTimeout(() => setIsTransitioning(false), 350);
     },
     [totalPages, isTransitioning]
