@@ -50,7 +50,7 @@ export const FlipbookControls: React.FC<FlipbookControlsProps> = ({
             aria-label="Volver a la portada"
             className={`p-2 transition-colors ${
               currentPage === 0
-                ? 'bg-[#E6D19A] text-[#111111]'
+                ? 'bg-transparent text-[#111111]'
                 : 'text-[#F2EFE9] hover:text-[#E6D19A]'
             }`}
           >
@@ -63,7 +63,7 @@ export const FlipbookControls: React.FC<FlipbookControlsProps> = ({
             aria-label="Abrir filtros y búsqueda"
             className={`p-2 transition-colors ${
               showFilters
-                ? 'bg-[#E6D19A] text-[#111111]'
+                ? 'bg-transparent text-[#111111]'
                 : 'text-[#F2EFE9] hover:text-[#E6D19A]'
             }`}
           >
