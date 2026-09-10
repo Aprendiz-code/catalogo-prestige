@@ -148,7 +148,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-02-1',
         product_id: 'prod-02',
-        image_url: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Hoodie Essential Graphite',
         sort_order: 1,
         is_primary: true,
