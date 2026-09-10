@@ -324,7 +324,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-07-1',
         product_id: 'prod-07',
-        image_url: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Camiseta Oversize Cream Gold',
         sort_order: 1,
         is_primary: true,
@@ -359,7 +359,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-08-1',
         product_id: 'prod-08',
-        image_url: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Hoodie Boxy Fit Champagne',
         sort_order: 1,
         is_primary: true,
@@ -394,7 +394,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-09-1',
         product_id: 'prod-09',
-        image_url: 'https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Pantalón Cargo Tactical Black',
         sort_order: 1,
         is_primary: true,
