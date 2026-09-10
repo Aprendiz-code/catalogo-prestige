@@ -32,7 +32,7 @@ export const CatalogCover: React.FC<CatalogCoverProps> = ({ settings, onExplore 
         </div>
         <button
           onClick={onExplore}
-          className="inline-flex shrink-0 items-center justify-center gap-3 bg-[#111111] px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#3A3A3A]"
+          className="inline-flex shrink-0 items-center justify-center gap-3 bg-black px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#3A3A3A]"
         >
           Ver colección
           <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
