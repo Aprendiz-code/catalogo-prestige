@@ -289,7 +289,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-06-1',
         product_id: 'prod-06',
-        image_url: 'https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Jogger Heavy Fleece Charcoal',
         sort_order: 1,
         is_primary: true,
