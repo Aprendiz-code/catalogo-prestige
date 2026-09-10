@@ -105,7 +105,7 @@ export const ProductVariantSelector: React.FC<ProductVariantSelectorProps> = ({
                   aria-label={`Talla ${size}${!isAvailable ? ' - Agotada' : ''}`}
                   className={`min-w-[30px] border px-2 py-1 text-[10px] font-semibold transition-all ${
                     isSelected
-                      ? 'bg-[#E6D19A] text-[#111111] border-[#E6D19A]'
+                      ? 'bg-white text-[#111111] border-[#111111]'
                       : isAvailable
                       ? 'bg-transparent text-[#F2EFE9] border-[#383838] hover:border-[#E6D19A]'
                       : 'bg-[#191919] text-[#555555] border-[#252525] line-through cursor-not-allowed opacity-60'
