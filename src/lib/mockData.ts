@@ -101,7 +101,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-01-1',
         product_id: 'prod-01',
-        image_url: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Camiseta Oversize Core Black frente',
         sort_order: 1,
         is_primary: true,
@@ -148,7 +148,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-02-1',
         product_id: 'prod-02',
-        image_url: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85',
+        image_url: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Hoodie Essential Graphite',
         sort_order: 1,
         is_primary: true,
@@ -184,7 +184,7 @@ export const INITIAL_PRODUCTS: ProductWithDetails[] = [
       {
         id: 'img-03-1',
         product_id: 'prod-03',
-        image_url: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80',
+        image_url: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=85',
         alt_text: 'Cargo Relaxed Olive',
         sort_order: 1,
         is_primary: true,
