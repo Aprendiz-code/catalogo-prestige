@@ -74,7 +74,7 @@ export const CatalogPageManager: React.FC<CatalogPageManagerProps> = ({
 
         <button
           onClick={handleCreateNewPage}
-          className="inline-flex items-center space-x-2 bg-[#E6D19A] hover:bg-[#C9A24D] text-[#111111] font-bold text-xs tracking-widest px-5 py-2.5 rounded-xs transition-transform transform hover:scale-[1.02]"
+          className="inline-flex items-center space-x-2 bg-white hover:bg-[#F0EEE9] text-[#111111] font-bold text-xs tracking-widest px-5 py-2.5 rounded-xs transition-transform transform hover:scale-[1.02]"
         >
           <Plus className="w-4 h-4" />
           <span>AGREGAR PÁGINA (3 PRODUCTOS)</span>
